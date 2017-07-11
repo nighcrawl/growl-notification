@@ -1,0 +1,39 @@
+.demo {
+  background: url("../img/Lion.jpg");
+  background-size: cover;
+  height: calc(100vh - 10em);
+}
+
+.notify {
+  background: rgba(0, 0, 0, 0.7);
+  border: 2px solid #222222;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  -moz-box-shadow: 0 3px 5px rbga(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 3px 5px rbga(0, 0, 0, 0.4);
+  box-shadow: 0 3px 5px rbga(0, 0, 0, 0.4);
+  color: #ffffff;
+  font-size: .8em;
+  max-width: 246px;
+  padding: 25px;
+  position: absolute;
+  right: 8px;
+  top: 8em;
+}
+.notify:hover {
+  border: 2px solid #eeeeee;
+}
+.notify p {
+  cursor: default;
+  margin: 0;
+}
+.notify .icon {
+  background: url("../img/notify_icon.png") no-repeat;
+  display: block;
+  height: 40px;
+  left: -30px;
+  position: absolute;
+  top: 10px;
+  width: 40px;
+}
